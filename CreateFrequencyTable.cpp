@@ -6,7 +6,7 @@
 using namespace std;
 std::string path="/home/moshe/CLionProjects/Final-Project/Document/binarySearch.out";
 int static counter=0;
-std::map <unsigned char, int> CreateFrequencyTable (const std::string &strFile)
+std::map <unsigned char, float> CreateFrequencyTable (const std::string &strFile)
 {
     std::map <unsigned char, int> char_freqs ; // character frequencies
 

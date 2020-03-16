@@ -72,7 +72,7 @@ basic_string<char> buildHuffmanTree()
 {
     // count frequency of appearance of each character
     // and store it in a map
-    std::map <unsigned char, int> char_freqs = CreateFrequencyTable (path) ;
+    map<unsigned char, float> char_freqs = CreateFrequencyTable (path) ;
 
 
     // Create a priority queue to store live nodes of
