@@ -84,16 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/moshe/CLionProjects/Final-Project/CreateFrequencyTable.cpp">
-			<Option target="Final_Project"/>
-		</Unit>
-		<Unit filename="/home/moshe/CLionProjects/Final-Project/arithmetic_coding.cpp">
-			<Option target="Final_Project"/>
-		</Unit>
 		<Unit filename="/home/moshe/CLionProjects/Final-Project/huffman-code.cpp">
-			<Option target="Final_Project"/>
-		</Unit>
-		<Unit filename="/home/moshe/CLionProjects/Final-Project/main.cpp">
 			<Option target="Final_Project"/>
 		</Unit>
 		<Unit filename="/home/moshe/CLionProjects/Final-Project/CMakeLists.txt">

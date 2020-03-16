@@ -57,35 +57,9 @@ include CMakeFiles/Final_Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Final_Project.dir/flags.make
 
-CMakeFiles/Final_Project.dir/main.cpp.o: CMakeFiles/Final_Project.dir/flags.make
-CMakeFiles/Final_Project.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moshe/CLionProjects/Final-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Final_Project.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Final_Project.dir/main.cpp.o -c /home/moshe/CLionProjects/Final-Project/main.cpp
-
-CMakeFiles/Final_Project.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Final_Project.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moshe/CLionProjects/Final-Project/main.cpp > CMakeFiles/Final_Project.dir/main.cpp.i
-
-CMakeFiles/Final_Project.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final_Project.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moshe/CLionProjects/Final-Project/main.cpp -o CMakeFiles/Final_Project.dir/main.cpp.s
-
-CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o: CMakeFiles/Final_Project.dir/flags.make
-CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o: ../CreateFrequencyTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moshe/CLionProjects/Final-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o -c /home/moshe/CLionProjects/Final-Project/CreateFrequencyTable.cpp
-
-CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moshe/CLionProjects/Final-Project/CreateFrequencyTable.cpp > CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.i
-
-CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moshe/CLionProjects/Final-Project/CreateFrequencyTable.cpp -o CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.s
-
 CMakeFiles/Final_Project.dir/huffman-code.cpp.o: CMakeFiles/Final_Project.dir/flags.make
 CMakeFiles/Final_Project.dir/huffman-code.cpp.o: ../huffman-code.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moshe/CLionProjects/Final-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Final_Project.dir/huffman-code.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moshe/CLionProjects/Final-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Final_Project.dir/huffman-code.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Final_Project.dir/huffman-code.cpp.o -c /home/moshe/CLionProjects/Final-Project/huffman-code.cpp
 
 CMakeFiles/Final_Project.dir/huffman-code.cpp.i: cmake_force
@@ -96,36 +70,17 @@ CMakeFiles/Final_Project.dir/huffman-code.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final_Project.dir/huffman-code.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moshe/CLionProjects/Final-Project/huffman-code.cpp -o CMakeFiles/Final_Project.dir/huffman-code.cpp.s
 
-CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o: CMakeFiles/Final_Project.dir/flags.make
-CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o: ../arithmetic_coding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moshe/CLionProjects/Final-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o -c /home/moshe/CLionProjects/Final-Project/arithmetic_coding.cpp
-
-CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moshe/CLionProjects/Final-Project/arithmetic_coding.cpp > CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.i
-
-CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moshe/CLionProjects/Final-Project/arithmetic_coding.cpp -o CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.s
-
 # Object files for target Final_Project
 Final_Project_OBJECTS = \
-"CMakeFiles/Final_Project.dir/main.cpp.o" \
-"CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o" \
-"CMakeFiles/Final_Project.dir/huffman-code.cpp.o" \
-"CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o"
+"CMakeFiles/Final_Project.dir/huffman-code.cpp.o"
 
 # External object files for target Final_Project
 Final_Project_EXTERNAL_OBJECTS =
 
-Final_Project: CMakeFiles/Final_Project.dir/main.cpp.o
-Final_Project: CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o
 Final_Project: CMakeFiles/Final_Project.dir/huffman-code.cpp.o
-Final_Project: CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o
 Final_Project: CMakeFiles/Final_Project.dir/build.make
 Final_Project: CMakeFiles/Final_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moshe/CLionProjects/Final-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Final_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moshe/CLionProjects/Final-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Final_Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Final_Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,8 +4,10 @@
 #include <queue>
 #include <unordered_map>
 #include <bitset>
+#include <chrono>
 #include "CreateFrequencyTable.cpp"
 std::string decodeString="";
+std::string path="/home/moshe/CLionProjects/Final-Project/Document/binarySearch.out";
 using namespace std;
 struct Node
 {
@@ -68,11 +70,38 @@ void encode(Node* root, string str,
     encode(root->left, str + "0", huffmanCode);
     encode(root->right, str + "1", huffmanCode);
 }
+std::map <unsigned char, int> createFrequencyTable (const std::string &strFile)
+{
+    std::map <unsigned char, int> char_freqs ; // character frequencies
+
+    std::ifstream file (strFile,std::ios::binary) ;
+    int next = 0 ;
+    while ((next = file.get ()) != EOF) {
+        unsigned char uc = static_cast <unsigned char> (next) ;
+
+        std::map <unsigned char, int>::iterator iter ;
+        iter = char_freqs.find (uc) ;
+
+        // This character is in our map.
+        if (iter != char_freqs.end ()) {
+            iter->second += 1 ;
+        }
+
+            // This character is not in our map yet.
+        else {
+            char_freqs [uc] = 1 ;
+        }
+
+    }
+
+    return char_freqs ;
+}
 basic_string<char> buildHuffmanTree()
 {
     // count frequency of appearance of each character
     // and store it in a map
-    map<unsigned char, float> char_freqs = CreateFrequencyTable (path) ;
+
+    std::map <unsigned char, int> char_freqs = createFrequencyTable (path) ;
 
 
     // Create a priority queue to store live nodes of
@@ -145,5 +174,24 @@ void decodeHuffman(string str) {
     out.close();
 }
 
+
+int main() {
+    auto t1 = std::chrono::high_resolution_clock::now();
+    std::string str=buildHuffmanTree();
+    auto t2 = std::chrono::high_resolution_clock::now();
+
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+
+    std::cout<<"first: " << duration;
+
+    t1 = std::chrono::high_resolution_clock::now();
+    decodeHuffman(str);
+    t2 = std::chrono::high_resolution_clock::now();
+
+    duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+
+    std::cout<<"second : " << duration;
+    return 0;
+}
 
 

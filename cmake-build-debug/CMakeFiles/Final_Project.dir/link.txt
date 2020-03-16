@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Final_Project.dir/main.cpp.o CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o CMakeFiles/Final_Project.dir/huffman-code.cpp.o CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o  -o Final_Project 
+/usr/bin/c++  -g   CMakeFiles/Final_Project.dir/huffman-code.cpp.o  -o Final_Project 

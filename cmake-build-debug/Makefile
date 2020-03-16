@@ -123,60 +123,6 @@ Final_Project/fast:
 	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/build
 .PHONY : Final_Project/fast
 
-CreateFrequencyTable.o: CreateFrequencyTable.cpp.o
-
-.PHONY : CreateFrequencyTable.o
-
-# target to build an object file
-CreateFrequencyTable.cpp.o:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o
-.PHONY : CreateFrequencyTable.cpp.o
-
-CreateFrequencyTable.i: CreateFrequencyTable.cpp.i
-
-.PHONY : CreateFrequencyTable.i
-
-# target to preprocess a source file
-CreateFrequencyTable.cpp.i:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.i
-.PHONY : CreateFrequencyTable.cpp.i
-
-CreateFrequencyTable.s: CreateFrequencyTable.cpp.s
-
-.PHONY : CreateFrequencyTable.s
-
-# target to generate assembly for a file
-CreateFrequencyTable.cpp.s:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.s
-.PHONY : CreateFrequencyTable.cpp.s
-
-arithmetic_coding.o: arithmetic_coding.cpp.o
-
-.PHONY : arithmetic_coding.o
-
-# target to build an object file
-arithmetic_coding.cpp.o:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o
-.PHONY : arithmetic_coding.cpp.o
-
-arithmetic_coding.i: arithmetic_coding.cpp.i
-
-.PHONY : arithmetic_coding.i
-
-# target to preprocess a source file
-arithmetic_coding.cpp.i:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.i
-.PHONY : arithmetic_coding.cpp.i
-
-arithmetic_coding.s: arithmetic_coding.cpp.s
-
-.PHONY : arithmetic_coding.s
-
-# target to generate assembly for a file
-arithmetic_coding.cpp.s:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.s
-.PHONY : arithmetic_coding.cpp.s
-
 huffman-code.o: huffman-code.cpp.o
 
 .PHONY : huffman-code.o
@@ -204,33 +150,6 @@ huffman-code.cpp.s:
 	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/huffman-code.cpp.s
 .PHONY : huffman-code.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Final_Project.dir/build.make CMakeFiles/Final_Project.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,18 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Final_Project"
 	@echo "... edit_cache"
-	@echo "... CreateFrequencyTable.o"
-	@echo "... CreateFrequencyTable.i"
-	@echo "... CreateFrequencyTable.s"
-	@echo "... arithmetic_coding.o"
-	@echo "... arithmetic_coding.i"
-	@echo "... arithmetic_coding.s"
 	@echo "... huffman-code.o"
 	@echo "... huffman-code.i"
 	@echo "... huffman-code.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(Final_Project)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Final_Project main.cpp CreateFrequencyTable.cpp huffman-code.cpp arithmetic_coding.cpp)
+add_executable(Final_Project huffman-code.cpp )

@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Final_Project.dir/CreateFrequencyTable.cpp.o"
-  "CMakeFiles/Final_Project.dir/arithmetic_coding.cpp.o"
   "CMakeFiles/Final_Project.dir/huffman-code.cpp.o"
-  "CMakeFiles/Final_Project.dir/main.cpp.o"
   "Final_Project"
   "Final_Project.pdb"
 )
